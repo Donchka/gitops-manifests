@@ -10,7 +10,7 @@ service:
   nodePort: 30080
 
 mysql:
-  host: mysql
-  user: root
-  password: password
+  host: mysql.default.svc.cluster.local
+  user: appuser
+  password: apppass
   database: itemsdb

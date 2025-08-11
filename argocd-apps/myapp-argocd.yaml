@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: 'https://github.com/donchka/gitops-manifests.git'
+    repoURL: 'https://github.com/Donchka/gitops-manifests.git'
     targetRevision: HEAD
     path: charts/myapp
   destination:

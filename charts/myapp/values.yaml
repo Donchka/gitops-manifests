@@ -1,7 +1,7 @@
 replicaCount: 1
 image:
   repository: donchka/gitops-flask
-  tag: "f9ee43829e240df72a2b96fb24666b0683d43195"
+  tag: "dd767855086907f0ecf945cd363d54ce9b76beed"
 service:
   type: NodePort
   port: 5000

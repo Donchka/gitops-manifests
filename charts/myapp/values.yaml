@@ -1,14 +1,11 @@
 replicaCount: 1
-
 image:
   repository: donchka/gitops-flask
-  tag: "latest"  
-
+  tag: "f9ee43829e240df72a2b96fb24666b0683d43195"
 service:
   type: NodePort
   port: 5000
   nodePort: 30080
-
 mysql:
   host: mysql.default.svc.cluster.local
   user: appuser
